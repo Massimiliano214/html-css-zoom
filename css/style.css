@@ -6,9 +6,6 @@
 
 body {
     background-color: black;
-}
-
-.wrapp {
     height: 100vh;
 }
 
@@ -49,7 +46,8 @@ header {
 }
 
 main {
-    max-height: calc(100% -350px);
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
 }
 .container {
     margin: auto;
