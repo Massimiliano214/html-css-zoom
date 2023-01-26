@@ -11,11 +11,10 @@ body {
 
 header {
     height: 50px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .tasti { 
-    margin: 10px auto;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -46,11 +45,11 @@ header {
 }
 
 main {
-    max-height: calc(100vh - 120px);
+    height: calc(100vh - 120px);
     overflow-y: auto;
 }
 .container {
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -60,7 +59,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
+
 }
 .image {
     position: relative;
@@ -89,11 +88,12 @@ footer {
 
 .footer_icons {
     display: flex;
+    max-height: 65px;
     
 }
 
 .icona {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     align-items: center;
     display: flex;
@@ -105,14 +105,52 @@ footer {
     margin: 20px;
 }
 
-.microfono, .webcam {
+.tipo_icona {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 0 5px;
 }
 
 .desc {
     padding-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.parte_centro {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.parte_sinistra{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.parte_destra{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.grigio {
+    height: 70px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    display: flex;
+}
+
+.quit {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: red;
+}
+
+.green {
+    color: lime;
 }
