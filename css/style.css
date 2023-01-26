@@ -85,5 +85,35 @@ header {
 
 footer {
     background-color: rgb(39, 39, 39);
-    height: 54px;
+    height: 100%;
+}
+
+.footer_icons {
+    display: flex;
+    
+}
+
+.icona {
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+.testina {
+    margin: 20px;
+}
+
+.microfono, .webcam {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.desc {
+    padding-top: 5px;
+    font-size: 14px;
 }
