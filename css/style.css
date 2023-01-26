@@ -14,7 +14,6 @@ body {
 
 header {
     height: 50px;
-    background-color: blue;
     padding: 5px;
 }
 
@@ -52,7 +51,6 @@ header {
 .container {
     margin: auto;
     width: 100%;
-    background-color: yellow;
 }
 
 .images {
